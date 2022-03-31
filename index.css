@@ -25,6 +25,19 @@ a:visited{
 }
 
 body{
-    max-width: 90%;
+    width: 90%;
     margin:auto;
+}
+
+blockquote{
+    
+    width: 45%;
+    font-size: 160%;
+    background-color: gray;
+
+}
+q{
+    background-color: gray;
+    font-size: 160%;
+    width: 45%;
 }
