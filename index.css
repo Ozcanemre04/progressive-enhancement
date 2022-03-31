@@ -1,0 +1,30 @@
+p {
+    font-family: serif;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    color: darkblue;
+}
+
+a{
+    color: aqua;
+    font-weight: bold;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+a:active{
+    color: blueviolet;
+}
+
+a:visited{
+    color: red;
+}
+
+body{
+    max-width: 90%;
+    margin:auto;
+}
