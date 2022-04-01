@@ -66,12 +66,13 @@ header > h1{
 .good{
     color:#159608;
     text-transform: capitalize;
-    font-size: 20px;
-    line-height: normal;
+    display: inline;
+    
 }
 .bad{
     color: #DC3514;
     text-transform: capitalize;
+    display: inline;
 }
 
 table,td{
