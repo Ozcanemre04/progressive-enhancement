@@ -1,8 +1,9 @@
 p {
     font-family: serif;
     font-size: 20px;
-    word-spacing: 10px;
-    letter-spacing: 5px;
+    
+    
+    line-height: 40px;
     color: darkblue;
 }
 
@@ -59,6 +60,27 @@ q{
     border-left: 4px solid greenyellow;
 }
 
-header:first-child{
+header > h1{
     background-color: yellow;
 }
+.good{
+    color:#159608;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: normal;
+}
+.bad{
+    color: #DC3514;
+    text-transform: capitalize;
+}
+
+table,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: gray;
+}
+
+
