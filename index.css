@@ -9,7 +9,7 @@ p {
 
 a{
     color: aqua;
-    font-weight: bold;
+    
 }
 
 a:hover{
@@ -82,6 +82,68 @@ table,td{
 
 tr:nth-child(odd){
     background-color: gray;
+}
+
+
+    
+
+.notification{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border: 1px solid blue;
+    background-color: bisque;
+    padding: 10px;
+    width: 300px;
+    font-weight: bold;
+    
+}
+  .one::after{
+    content: url(./img/bien.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    padding-left: 10px;
+    position: relative;
+    top: 5px;
+    
+    
+}
+
+.two::after{
+    content: url(./img/mal.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    position: relative;
+    top: 30px;
+    padding-left: 10px;
+
+
+}
+.three::after{
+    content: url(./img/chat.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+    position: relative;
+    top: 15px;
+    padding-left: 10px;
+    
+
+
+}
+.four{
+    position: relative;
+    top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+ul li:first-child{
+    font-weight: bolder;
+    
+    
 }
 
 
