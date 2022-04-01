@@ -1,8 +1,7 @@
 p {
     font-family: serif;
     font-size: 20px;
-    word-spacing: 5px;
-    line-height: 50px;
+    word-spacing: 10px;
     letter-spacing: 5px;
     color: darkblue;
 }
@@ -25,19 +24,41 @@ a:visited{
 }
 
 body{
-    width: 90%;
+    max-width: 90%;
     margin:auto;
+    background-color: #6DB1A0;
+    background-image: url(./img/2303690-affiche-fond-blanc-abstrait-avec-illustrationle-de-technologie-dynamique-vectoriel.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: cover;
+    
 }
 
 blockquote{
     
-    width: 45%;
+    max-width: 50%;
     font-size: 160%;
     background-color: gray;
+    display: inline-block;
+    margin: auto;
+    border: 3px solid firebrick;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 80px 0 80px 0;
 
 }
+
 q{
-    background-color: gray;
-    font-size: 160%;
-    width: 45%;
+    font-style: italic;
+}
+.other{
+    border-left: 4px solid red;
+}
+
+.farmer{
+    border-left: 4px solid greenyellow;
+}
+
+header:first-child{
+    background-color: yellow;
 }
