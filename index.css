@@ -4,31 +4,29 @@
 
 p {
     font-family: serif;
-    font-size: 20px;
-    
-    
+    font-size: 18px;
     word-spacing: 16px;
     color: darkblue;
 }
 
-a{
+a {
     color: aqua;
-    
+
 }
 
-a:hover{
+a:hover {
     color: aquamarine;
 }
 
-a:active{
+a:active {
     color: blueviolet;
 }
 
-a:visited{
+a:visited {
     color: red;
 }
 
-body{
+body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -37,50 +35,57 @@ body{
     background-repeat: no-repeat;
     background-position: bottom 0 right 0;
     background-size: cover;
-    
-    
+    font-family: 'Open Sans', sans-serif;
+
+
 }
 
-blockquote{
-    
+blockquote {
+
     max-width: 50%;
     font-size: 160%;
     background-color: gray;
     display: inline-block;
-    margin: auto;
+
     border: 3px solid firebrick;
     border-radius: 10px;
     padding: 30px;
     margin: 80px 0 80px 0;
-    
-    
+    position: relative;
+    left: 350px;
+    text-align: center;
+
+
 
 }
 
-q{
+q {
     font-style: italic;
 }
-.other{
+
+.other {
     border-left: 4px solid red;
 }
 
-.farmer{
+.farmer {
     border-left: 4px solid greenyellow;
 }
 
-header > h1{
+header>h1 {
     background-color: yellow;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    
 
 }
-.good{
-    color:#159608;
+
+.good {
+    color: #159608;
     text-transform: capitalize;
     display: inline;
-    
+
 }
-.bad{
+
+.bad {
     color: #DC3514;
     text-transform: capitalize;
     display: inline;
@@ -88,19 +93,26 @@ header > h1{
 
 }
 
-table,td{
+table,
+td {
     border: 2px solid black;
     border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
-tr:nth-child(odd){
+tr:nth-child(odd) {
     background-color: gray;
 }
 
 
-    
 
-.notification{
+
+.notification {
     position: fixed;
     bottom: 0px;
     right: 0px;
@@ -110,96 +122,122 @@ tr:nth-child(odd){
     width: 300px;
     font-weight: bold;
     text-align: center;
-    
-}
-  .one::after{
-    content: url(./img/bien.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    
-    padding-left: 10px;
-    position: relative;
-    top: 5px;
-    
-    
+
 }
 
-.two::after{
-    content: url(./img/mal.png);
+.one::after {
+    /*content: url(./img/bien.png);*/
     background-repeat: no-repeat;
     background-position: right;
-    
+    background-image: url(./img/bien.png);
+
     position: relative;
-    top: 30px;
-    padding-left: 10px;
+
+    content: "";
+    padding-right: 20px;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 30px;
 
 
 }
-.three::after{
-    content: url(./img/chat.png);
+
+.two::after {
+    /*content: url(./img/mal.png);*/
     background-repeat: no-repeat;
     background-position: right;
-    
+    background-image: url(./img/mal.png);
     position: relative;
+    padding-right: 10px;
     top: 15px;
-    padding-left: 10px;
-    
+    content: "";
+    background-size: contain;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
 
 
 }
-.four{
+
+.three::after {
+    /*content: url(./img/chat.png);*/
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
     position: relative;
-    top: 20px;
+    top: 8px;
+    padding-right: 15px;
+    display: inline-block;
+    background-image: url(./img/chat.png);
+    content: "";
+    width: 30px;
+    height: 30px;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.four {
+
     padding-bottom: 20px;
     text-decoration: underline;
+    color: aqua;
 }
 
-ul li:first-child{
+.article1 > p:first-of-type{
     font-weight: bolder;
     
     
-}
-img{
-    width: 300px;
-    
+
+
 }
 
-.section1{
-    display: flex;
-    
-    flex-direction: row;
-    
-    
+img {
+    width: 300px;
+
 }
-.section1 > figure > img{
+
+.section1 {
+    display: flex;
+
+    flex-direction: row;
+
+
+}
+
+.section1>figure>img {
     position: relative;
     top: 10px;
 }
 
 
-.article1{
-    justify-content: space-between;
-    
-}
 
 
-.section2{
+.section2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
-.section2 > h2{
+
+.section2>h2 {
     display: flex;
     align-items: center;
     position: relative;
     left: 100px;
-    
+
 }
-.section2 > figure{
+
+.section2>figure {
     position: relative;
     right: -20px;
 }
-figcaption{
+
+figcaption {
     text-align: center;
     padding-top: 20px;
 }
@@ -208,9 +246,17 @@ figcaption{
 
 
 
-caption{
+caption {
     caption-side: bottom;
     padding-top: 20px;
 }
 
+.section3 {
 
+
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
