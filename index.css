@@ -11,12 +11,12 @@ p {
 
 a {
     color: aqua;
-    
+
 
 }
 
-a:hover{
-    color:purple;
+a:hover {
+    color: purple;
     background-color: white;
 }
 
@@ -25,7 +25,7 @@ a:hover{
 
 a:visited {
     color: darkred;
-    
+
 }
 
 body {
@@ -39,14 +39,14 @@ body {
     background-position: bottom 0 right 0;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    
-   }
+
+}
 
 blockquote {
 
     max-width: 50%;
     font-size: 160%;
-    background-color:#989FA6;
+    background-color: #989FA6;
     display: inline-block;
 
     border: 3px solid firebrick;
@@ -76,10 +76,11 @@ q {
 header>h1 {
     background-color: yellow;
     text-align: center;
-    
+
 
 }
-em{
+
+em {
     font-weight: bolder;
     filter: contrast(4.5);
 }
@@ -88,8 +89,8 @@ em{
     color: #037a19d0;
     text-transform: capitalize;
     display: inline;
-    
-    
+
+
 
 }
 
@@ -97,7 +98,7 @@ em{
     color: #EE2706;
     text-transform: capitalize;
     display: inline;
-    
+
 
 }
 
@@ -114,7 +115,7 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color:#989FA6;
+    background-color: #989FA6;
 }
 
 
@@ -134,7 +135,7 @@ tr:nth-child(odd) {
 }
 
 .one::after {
-    
+
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(./img/bien.png);
@@ -152,7 +153,7 @@ tr:nth-child(odd) {
 }
 
 .two::after {
-    
+
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(./img/mal.png);
@@ -169,7 +170,7 @@ tr:nth-child(odd) {
 }
 
 .three::after {
-    
+
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -196,13 +197,13 @@ ul {
     text-decoration: underline;
     color: rgb(173, 8, 8);
     padding-top: 10px;
-    
+
 }
 
-.article1 > p:first-of-type{
+.article1>p:first-of-type {
     font-weight: bolder;
-    
-    
+
+
 
 
 }
@@ -253,7 +254,7 @@ figcaption {
 }
 
 
-.zero{
+.zero {
     display: flex;
     flex-wrap: wrap;
 }
