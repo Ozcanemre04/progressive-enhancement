@@ -30,7 +30,8 @@ body {
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #6DB1A0;
+    background: linear-gradient(to left, #ffff00 0%, #cc9900 100%);
+
     background-image: url(./img/2303690-affiche-fond-blanc-abstrait-avec-illustrationle-de-technologie-dynamique-vectoriel.jpg);
     background-repeat: no-repeat;
     background-position: bottom 0 right 0;
@@ -126,7 +127,7 @@ tr:nth-child(odd) {
 }
 
 .one::after {
-    /*content: url(./img/bien.png);*/
+    
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(./img/bien.png);
@@ -144,7 +145,7 @@ tr:nth-child(odd) {
 }
 
 .two::after {
-    /*content: url(./img/mal.png);*/
+    
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(./img/mal.png);
@@ -161,7 +162,7 @@ tr:nth-child(odd) {
 }
 
 .three::after {
-    /*content: url(./img/chat.png);*/
+    
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
